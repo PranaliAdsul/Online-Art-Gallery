@@ -1,0 +1,24 @@
+.home-container {
+    position: relative;
+  }
+  .home-jumbotron {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background to improve readability */
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+  
+  .home-jumbotron h1 {
+    font-size: 3rem;
+    color: #ffffff; /* White text for better contrast */
+    margin-bottom: 2rem;
+  }
+  
+  .home-jumbotron p {
+    font-size: 1.5rem;
+    color: #ffffff; /* White text for better contrast */
+  }
+  
+  .cta-button {
+    margin-top: 2rem;
+  }
+  
