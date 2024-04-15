@@ -1,12 +1,12 @@
 import React from 'react';
 
-const AddArtwork = () => {
+const Artworks = () => {
   return (
     <div>
-      <h2>Add Artwork</h2>
-      {/* Form to add artwork */}
+      <h2>All Artworks</h2>
+      {/* Display artworks dynamically */}
     </div>
   );
 };
 
-export default AddArtwork;
+export default Artworks;
