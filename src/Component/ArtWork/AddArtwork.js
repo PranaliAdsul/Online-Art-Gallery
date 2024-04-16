@@ -8,7 +8,7 @@ const AddArtwork = () => {
 
   const onFinish = async (values) => {
     try {
-      const response = await axios.post('/artworks.json', values);
+      const response = await axios.post('./artists.json', values);
       // Handle successful submission
       console.log(response);
       form.resetFields();

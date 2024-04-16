@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { Card, Row, Col,Button } from 'antd';
+import { Card, Row, Col,} from 'antd';
 
 const Artists = () => {
   const [artists, setArtists] = useState([]);
@@ -23,7 +23,7 @@ const Artists = () => {
             <Link to={`/artists/${artist.id}`}>
               <Card
                 hoverable
-                cover={<img alt={artist.name} src={artist.image_url} />}
+                cover={<img alt={artist.avatar.id} src={artist.avatar} />}
               >
                 <Card.Meta title={artist.name} description={artist.bio} />
               </Card>
@@ -31,9 +31,7 @@ const Artists = () => {
           </Col>
         ))}
       </Row>
-      <Link to="/artists/add">
-        <Button type="primary">Add Artist</Button>
-      </Link>
+      
     </div>
   );
 };

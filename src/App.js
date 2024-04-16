@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from '../src/Component/Header/header.js';
 import Home from './Component/Home/home.js';
-import Cart from './Component/Cart/Cart.js';
+import AddtoCart from './Component/Cart/AddtoCart.js';
 import AddArtwork from './Component/ArtWork/AddArtwork.js';
 import Artworks from './Component/ArtWork/Artworks.js';
 import Artists from './Component/Artists/Artists.js';
@@ -20,7 +20,7 @@ function App() {
       <Route path="/artworks/add" element={<AddArtwork />} />
       <Route path="/artists" element={<Artists />} />
       <Route path="/artists/add" element={<AddArtist />} />
-      <Route path="/cart" element={<Cart />} />
+      <Route path="/cart" element={<AddtoCart />} />
     </Routes>
   </Router>
   );

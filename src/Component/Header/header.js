@@ -34,9 +34,9 @@ const Header = () => {
           <Menu.Item key="artists">
             <Link to="/artists">All Artists</Link>
           </Menu.Item>
-          <Menu.Item key="add-artist">
+          {/* <Menu.Item key="add-artist">
             <Link to="/artists/add">Add Artist</Link>
-          </Menu.Item>
+          </Menu.Item> */}
         </SubMenu>
         <Menu.Item key="search">
           <SearchBar handleSearch={handleSearch} />
