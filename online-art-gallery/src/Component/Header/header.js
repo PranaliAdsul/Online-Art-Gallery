@@ -1,10 +1,17 @@
 import React from 'react';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
-import { HomeOutlined, AppstoreOutlined, TeamOutlined, ShoppingCartOutlined } from '@ant-design/icons'; // Import specific icons
+import { HomeOutlined, AppstoreOutlined, TeamOutlined, ShoppingCartOutlined } from '@ant-design/icons'; 
+import SearchBar from '../Search/Search.js'; // Import the SearchBar component
+import './header.css'; // Import the CSS file
 
 const Header = () => {
   const { SubMenu } = Menu;
+    // Define the handleSearch function to handle search
+    const handleSearch = (searchText) => {
+      // Add your search functionality here
+      console.log('Search Text:', searchText);
+    };
 
   return (
     <div className="header">
@@ -31,6 +38,9 @@ const Header = () => {
             <Link to="/artists/add">Add Artist</Link>
           </Menu.Item>
         </SubMenu>
+        <Menu.Item key="search">
+          <SearchBar handleSearch={handleSearch} />
+        </Menu.Item>
         <Menu.Item key="cart">
           <Link to="/cart">
             <ShoppingCartOutlined />

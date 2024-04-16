@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from 'antd';
 import './home.css'; // Import CSS file
-import 'animate.css/animate.min.css';
 
 const Home = () => {
   return (

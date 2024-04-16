@@ -1,0 +1,22 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 700px; /* Adjust width as needed */
+    padding: 0.5em;
+    border-radius: 20px;
+    background: #f1f3f5;
+    overflow: hidden;
+    border-color: white;
+  }
+  
+  .search-input {
+    flex: 1; /* Allow the input to grow and fill the container */
+    outline: none;
+    border: none;
+    background: none;
+    caret-color: #c74778;
+    font-size: 1em;
+    font-family: Calibri;
+    box-sizing: border-box;
+  }
+  
