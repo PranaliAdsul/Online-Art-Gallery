@@ -31,7 +31,7 @@ const Artists = () => {
     <div style={{ textAlign: 'center' }}> {/* Center the search bar */}
       {/* Add the styled Search component here */}
       <Search
-        placeholder="Search artists..."
+        placeholder="Search artists...."
         onSearch={handleSearch}
         style={{ marginBottom: '16px', width: '300px', display: 'inline-block' }} // Set width and margin bottom
         prefix={<SearchOutlined style={{ color: '#1890ff' }} />} // Add search icon with custom color
