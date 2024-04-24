@@ -19,3 +19,21 @@
 .nav-link:hover {
   background-color: #f8f9fa;
 }
+/* .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust padding as needed */
+
+
+  .logo-container {
+    position:absolute;
+    top: 5px; /* Adjust this value as needed */
+    right: 10px; /* Adjust this value as needed */
+  }
+  
+  .logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 38px; /* Maintain aspect ratio */
+  }
+  
